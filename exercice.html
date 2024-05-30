@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Mes premières balises HTML</h1>
+    <h2>Exo 01</h2>
+    <p>Bonjour, <strong>joyeux Halloween</strong>, on attend avec impatience ce : Week-end de 3 jours !</p>
+    <hr />
+
+    <h2>Exo 02</h2>
+    <h2>Mon repas de noël </h3>
+    <p>J’ai eu la chance d’avoir un repas de Noël excellent, puisqu’il était composé des plats suivants </p>
+    <ul>
+        <li>Du foie gras sur des toasts grillés (ça j’adore)</li>
+        <li>Du saumon rose</li>
+        <li>De la pintade avec une purée</li>
+        <li>Une bûche glacée</li>
+        
+    </ul>
+    <p>Et le tout arrosé de <strong>Champagne !</strong></p>
+    <p>Après j'ai pu déballer tous mes cadeaux:</p>
+    
+    <ol>
+        <li>Mamie Lulu : des <strong>DVD</strong></li>
+        <li>Mamie Elisabeth : des CD</li>
+        <li>Tonton Hugues : des <strong>livres</strong> </li>
+    </ol>
+    <hr/>
+    <h2>Exo 03</h2>
+    <ol>
+        <li> <u>HTML:</u> HyperText Markup Language <br/>  ○	C’est la structure de la page html où on organise les titres, paragraphes, listes, tableaux...
+            </li>
+        <br/>    
+
+        <li><u>CSS:</u> Cascading Style Sheet <br/>
+             ○	C'est la mise en forme, le design, l'apparence (les couleurs, les tailles, les positionnements  <br/> 
+             sur la page) </li>
+    <br>         
+
+        <li><u>Terminologie: </u><br/> 
+            ○	Eléments : ils définissent la structure et le contenu des objets au sein d'une page. Les plus <br/> 
+            couramment utilisés sont les niveaux de titre (h1 à h6) et les paragraphes (avec la balise p) 
+            <br/>
+            <br/>
+            ○	Balises : elles sont reconnaissables car elles sont encadrées d'un chevron ouvrant et d'un <br/> 
+            chevron fermant. L'ouverture d'une balise détermine le début d'un élément. Sa fermeture <br/> 
+            détermine sa fin. Le contenu qui est inséré entre une balise ouvrante et fermante <br/> 
+            représente le contenu de cet élément. Par exemple, un lien html sera encadré d'une balise <br/> 
+            A ouvrante et fermante. Il existe aussi des balises auto-fermantes (aussi dites orphelines). <br/>
+            <br/>
+            ○	Attributs : ce sont des propriétés utilisées pour fournir des informations complémentaires <br/>
+             sur un élément. Les attributs les plus communs incluent l'attribut ID (qui identifie un <br/> 
+             élément), l'attribut CLASS (qui classifie un élément), l'attribut SRC (qui spécifie la source <br/>
+             d'un contenu qui peut être imbriqué) et l'attribut HREF (qui contient un lien hypertexte vers <br/>
+             une ressource liée). Les attributs sont définis au sein de la balise ouvrante après le nom de <br/>
+             l'élément :
+
+         <code><pre> &lt;a href="https://github.com/Ma6Tvacoder-Docs/partages">Lien</a></pre></code></li>
+
+         <li><u>Structure :</u> <br/>
+             ○	Un fichier HTML est un fichier de texte brut (non mis en forme) enregistré avec l'extension <br/>
+             _.html_. <br/>
+              <br/>
+
+              ○	Tous les fichiers html ont une structure de base qui implique de déclarer les éléments <br/>
+             suivants : <br/>
+
+    <code>
+        <pre>
+            &lt;!DOCTYPE html>
+            &lt;html>
+                    &lt;head> 
+                         &lt;title>&lt;/title>
+                    &lt;head/>
+                    &lt;body>
+                    
+                    &lt;/body>
+            &lt;/html>
+        </pre>
+     </code>
+         </li>
+    
+
+        <ul><li>!DOCTYPE html informe le navigateur web que le document est de type html et qu'il s'agit <br/>
+         (ici) de la dernière version du langage, le HTML 5. En HTML 4.01, la précédente version <br/>
+         avant la 5, cette balise s’écrivait &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 <br/>
+         Frameset//EN" <a href="http://www.w3.org/TR/html4/frameset.dtd"> http://www.w3.org/TR/html4/frameset.dtd"</a></li>
+            <br/>
+            <li> A l'intérieur de l'élément html la balise <strong>head</strong> identifie le début du document et inclut les <br/>
+            métadonnées (informations sur la page). Le contenu à l'intérieur de la balise head n'est <br/>
+            pas affiché par le navigateur puisqu'il donne des informations sur la page (liens vers des <br/>
+            fichiers externes, utilisation du langage html, titre de la page).</li>
+
+            <br/>
+
+            <li>Tout ce qui s'affichera dans le navigateur est inclus à l'intérieur de la balise <strong>body.</strong></li>
+        
+            <br/>
+
+            <li>○	Quand un élément est placé au sein d'un autre (ou imbriqué) il est important d'<strong>indenter</strong><br/>
+            cet élément en le décalant vers la droite à l'aide de la tabulation pour conserver une <br/>
+            structure bien organisée et lisible pour tout le monde.</li>
+        
+            <br/>
+
+            <li>○	Les balises en paires comportent une balise ouvrante et une balise fermante indiquant <br/>
+            pour chacune le début et la fin de l'élément correspondant.</li>
+
+            <br/>
+
+            <li>○	Les balises auto-fermantes correspondent à des éléments ponctuels dans une page html, <br/>
+            pas besoin de fournir une information de fin (insérer une image ou un lien par exemple). <br/>
+            Les plus courantes :
+            <br/>
+            <br/>
+            &lt;br/><br/>
+            &lt;img/><br/>
+            &lt;meta/><br/>
+            &lt;input/><br/>
+            &lt;hr/><br/>
+            &lt; link/><br/>
+            </li>
+        </ul><br/>
+
+        <li><u> Le W3C </u>- La validation du code <br/>
+        Le <Strong>World Wide Web Consortium,</Strong>, abrégé par le sigle  <strong>W3C</strong> est un organisme de standardisation à <br/>
+        but non lucratif, fondé en octobre 1994 chargé de promouvoir la compatibilité des technologies du <br/>
+        <a href="https://fr.wikipedia.org/wiki/World_Wide_Web">World Wide Web</a> telles que <a href="https://fr.wikipedia.org/wiki/HTML5">HTML5</a>, <a href="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language">HTML</a>, <a href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade">CSS</a>, <a href="https://fr.wikipedia.org/wiki/Portable_Network_Graphics">PNG</a>, <a href="https://fr.wikipedia.org/wiki/Scalable_Vector_Graphics">SVG</a>... Le <a href="http://www.w3.org/"> W3C ou World Wide Web <br/> Consortium, </a>
+        ,, est un organisme international qui développe des <a href="http://www.w3.org/standards/">standars</a> pour le Web afin que les <br/>
+        gens puissent communiquer efficacement à travers Internet, autour de formats ouverts garantissant <br/>
+        une meilleure interopérabilité (c'est-à-dire une meilleure compréhension des systèmes hétérogènes à <br/>
+        travers des données et langages standardisés).Le consortium existe depuis 1994 et est dirigé <br/>
+        l'inventeur du Web, Tim Berners-Lee.Il est composé d'une équipe fixe et des membres (dont plusieurs <br/>
+        centaines d'entreprises partenaires). Les membres délèguent des ingénieurs au sein du W3C et <br/>
+        participent ainsi à l'élaboration des spécifications techniques pour les technologies du Web. De <br/>
+        nombreux membres actifs font partie des équipes de développement des navigateurs (Microsoft, <br/>
+        Mozilla, Apple, Opera, Google, etc). <br/>
+
+        </li>
+    
+    
+    </ol>         
+</body>
+</html>
